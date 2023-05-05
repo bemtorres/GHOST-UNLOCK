@@ -1,7 +1,4 @@
 
-
-var activeBuu = false;
-
 function _scriptBuuu() {
   var buuPass = document.querySelectorAll('input[type=password]');
   if (buuPass) {
@@ -15,11 +12,12 @@ function _scriptBuuu() {
       }
     }
   }
-  }
+}
 
 function handleBuuu() {
   var btnBuu = document.getElementById('btn-buuuu');
   btnBuu.addEventListener('click', function() {
+    document.getElementById('text-bu').innerHTML = 'BUUU';
     chrome.tabs.query({active: true, currentWindow: true}, function(buus) {
       chrome.scripting.executeScript(
         {
