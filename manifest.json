@@ -18,7 +18,7 @@
     "128": "img/logo.png"
   },
   "action": {
-    "default_title": "GHOST UNLOCK!",
+    "default_title": "GHOST UNLOCK!"
   },
   "host_permissions": ["*://*/*"]
 }
