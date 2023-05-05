@@ -1,0 +1,24 @@
+{
+  "name": "GHOST UNLOCK!",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "description": "converite una password en texto!",
+  "author": "bemtorres",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["popup.js"]
+    }
+  ],
+  "icons": {
+    "128": "img/logo.png"
+  },
+  "action": {
+    "default_title": "GHOST UNLOCK!",
+  },
+  "host_permissions": ["*://*/*"]
+}
